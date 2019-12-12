@@ -227,7 +227,7 @@
               config
             );
 
-            store.dispatch(keplerGl.addDataToMap(loadedData));
+            store.dispatch(keplerGl.addDataToMap(loadedData, {readOnly: true}));
           }(KeplerGl, store))
         </script>
       </body>
