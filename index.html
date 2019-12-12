@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="UTF-8"/>
-    <title>The Plateau's Property Value Map — 2019</title>
+    <title>The Plateau's Property Values Map — 2019</title>
 
     <link rel="stylesheet" href="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/uber-fonts/4.0.0/superfine.css">
 
@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 
     <meta property="og:url" content="http://kepler.gl/" />
-    <meta property="og:title" content="The Plateau's Property Value Map — 2019" />
-    <meta property="og:description" content="The Plateau's Property Value Map — 2019" />
-    <meta property="og:site_name" content="The Plateau's Property Value Map — 2019" />
+    <meta property="og:title" content="The Plateau's Property Values Map — 2019" />
+    <meta property="og:description" content="The Plateau's Property Values Map — 2019" />
+    <meta property="og:site_name" content="The Plateau's Property Values Map — 2019" />
     <meta property="og:image" content="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/kepler.gl-meta-tag.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="800" />
@@ -43,7 +43,8 @@
       .map-control {display:none;}
       .title {position: absolute; z-index:10; padding: 40px 60px; width: 340px; background-color: rgba(255, 255, 255, 0); color:#222222; font-family: 'Poppins', sans-serif;}
       .title p {font-size: 14px; line-height: 24px; font-weight: 500; background-color: rgba(255, 255, 255, 0.9); padding: 5px 10px;}
-      .title p a {text-decoration: underline; color:#222222; font-weight: 700;}
+      .title p a {text-decoration: underline; font-style: italic; color:#222222; font-weight: 400;}
+      .title p a.credit {text-decoration: underline; font-style: normal; color:#222222; font-weight: 700;}
       .title h1 {font-size: 24px; line-height: 30px; font-weight: 700; background-color: rgba(255, 255, 255, 0.9); padding: 5px 10px;}
       .jFGCNy {padding-top: 200px !important;}
       .hfKslQ {top: 200px !important;}
@@ -74,10 +75,10 @@
   <body>
     <div class="title">
       <h1>
-        2019 — Plateau's<br>Property Value Map
+        2019 — Plateau's<br>Property Values Map
       </h1>
       <p>
-        This map shows the approximate value increase (var%) of city blocks in Plateau-Mont-Royal, Montreal, between the 2015 and 2018 city-wide assessments. A representative unit was selected and used as the benchmark for each block. This map was built using the “Unités d'évaluation foncière” dataset from Montreal’s open data portal, in addition to scraped data from the “Rôle d'évaluation foncière” website. <br><br><i>Hover the map to see the blocks details.</i><br><br>Concept & map by <a href="http://mehenni.cargo.site/" target="_blank">Sam Mehenni</a>
+        This map shows the approximate value increase (var%) of city blocks in Plateau-Mont-Royal, Montreal, between the 2015 and 2018 city-wide assessments. A representative unit was selected and used as the benchmark for each block. This map was built using (1) the <a href="http://donnees.ville.montreal.qc.ca/dataset/unites-evaluation-fonciere" target="_blank">“Unités d'évaluation foncière”</a> dataset from Montreal’s open data portal for units' general information and (2) scraped data from the <a href="https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index" target="_blank">“Rôle d'évaluation foncière”</a> website for the property values. <br><br><i>Hover the blocks to see the details.</i><br><br>Concept & map by <a href="http://mehenni.cargo.site/" class="credit" target="_blank">Sam Mehenni</a>
       </p>
       <ul class="legend">
         <li><span class="one"></span>3 - 10%</li>
